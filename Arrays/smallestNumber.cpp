@@ -21,13 +21,20 @@ int main(){  // Main function, the entry point of the program
     }
 
     int min = arr[0];  // Initialize a variable 'min' with the first element of the array
+    int second_min = INT_MAX;
     for(int i = 1; i < n; i++){  // Iterate from 1 to 'n-1'
-        if(arr[i] < min){  // Check if the element at index 'i' is smaller than 'min'
-            min = arr[i];  // If yes, update 'min' with the new smallest element
+        if(arr[i] < min){  // If the element of the array at index 'i' is less than 'min'
+            second_min = min;
+            min = arr[i];  // Assign the element of the array at index 'i' to 'min'
         }
+        else if(arr[i] < second_min){
+            second_min = arr[i];
+        }
+
     }
 
     cout<<"The smallest element is: "<<min<<endl;  // Print the smallest element of the array
+    cout<<"The second smallest element is: "<<second_min<<endl;
 
     delete [] arr;  // Deallocate the dynamically allocated memory for the array
 
