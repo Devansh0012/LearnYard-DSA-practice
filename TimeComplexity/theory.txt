@@ -1,0 +1,25 @@
+Time Complexity Theory
+
+Time complexity is a measure of the amount of time taken by an algorithm to run as a function of the input size. It helps us analyze and compare the efficiency of different algorithms.
+
+There are several notations used to represent time complexity:
+
+1. Big O notation (O): It represents the upper bound or worst-case scenario of an algorithm's time complexity. For example, O(n) means the algorithm's time complexity grows linearly with the input size.
+
+2. Omega notation (Ω): It represents the lower bound or best-case scenario of an algorithm's time complexity. For example, Ω(n^2) means the algorithm's time complexity grows at least quadratically with the input size.
+
+3. Theta notation (Θ): It represents both the upper and lower bounds of an algorithm's time complexity. For example, Θ(n) means the algorithm's time complexity grows linearly with the input size, but not faster or slower.
+
+Common time complexity classes:
+
+1. O(1) - Constant time complexity: The algorithm takes a constant amount of time regardless of the input size.
+
+2. O(log n) - Logarithmic time complexity: The algorithm's time increases logarithmically with the input size.
+
+3. O(n) - Linear time complexity: The algorithm's time increases linearly with the input size.
+
+4. O(n^2) - Quadratic time complexity: The algorithm's time increases quadratically with the input size.
+
+5. O(2^n) - Exponential time complexity: The algorithm's time grows exponentially with the input size.
+
+It is important to analyze the time complexity of algorithms to ensure efficient and scalable solutions. By understanding the time complexity, we can make informed decisions about algorithm selection and optimization.
