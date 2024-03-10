@@ -9,6 +9,6 @@ int main() {
         for(int rem = num; rem > 0; rem /= 10){ //sum of digits loop
             sum = sum + rem % 10;
         }
-        cout<<"Sum of digits of the number "<<num<<"is "<<sum<<endl;
+        cout<<"Sum of digits of the number "<<num<<" is "<<sum<<endl;
     }
 }
